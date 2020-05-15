@@ -1,0 +1,132 @@
+ body {
+    width: 1170px;
+    margin: 0 auto;
+    font-family: Arial;
+    background:#eee;
+}
+.filter{
+    padding-top: 20px;
+}
+ .filter button{
+    background-color: tomato;
+    color: white;
+    padding: 10px 15px;
+}
+.grid-item{
+    width: 25%;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+}
+.flower{
+   background: teal;
+}
+.bird{
+   background: salmon;
+}
+.fruit{
+   background: tomato;
+}
+
+
+
+
+.banner{
+    background-image: url(../images/gir.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+h2{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    margin: auto;
+    color: #fff;
+    font-size: 70px;
+    font-family: poppins;
+
+
+}
+.aos-plugging{
+    width: 250px;
+   margin: auto;
+}
+.simbox{
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    margin: 35px 0px;
+}
+.simbox:nth-child(1){
+    background-image: url(../images/1.jpg);
+    margin-right: 50px;
+}
+.simbox:nth-child(2){
+    background-image: url(../images/12.jpg);
+}
+.simbox:nth-child(3){
+    background-image: url(../images/3.jpg);
+}
+.simbox:nth-child(4){
+    background-image: url(../images/4.jpg);
+}
+.simbox:nth-child(5){
+    background-image: url(../images/5.jpg);
+}
+.simbox:nth-child(6){
+    background-image: url(../images/6.jpg);
+}
+.simbox:nth-child(7){
+    background-image: url(../images/7.jpg);
+}
+
+.barfiller {
+    width:100%;
+    height:7px;
+    background:#fcfcfc;
+    border:1px solid #ccc;
+    position:relative;
+    margin-bottom:-12px;
+    margin-top:-13px;
+    box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,.5); 
+    -moz-box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,.5); 
+}
+
+.barfiller .fill {
+    display:block;
+    position:relative;
+    width:0px;
+    height:100%;
+    background:#333;
+    z-index:1;
+}
+
+.barfiller .tipWrap {
+    display:none;
+}
+
+.barfiller .tip {
+    margin-top:-30px;
+    padding:2px 4px;
+    font-size:11px;
+    color:#fff;
+    left:0px;
+    position:absolute;
+    z-index:2;
+    background: #333;
+} 
+
+.barfiller .tip:after {
+    border:solid;
+    border-color:rgba(0,0,0,.8) transparent;
+    border-width:6px 6px 0 6px;
+    content:"";
+    display:block;
+    position:absolute;
+    left:9px;
+    top:100%;
+    z-index:9
+}
